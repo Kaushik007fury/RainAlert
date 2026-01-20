@@ -9,7 +9,7 @@ auth_token =os.getenv("TWILIO_AUTH_TOKEN")
 MY_LAT = #latitude
 MY_LONG = #longitude
 
-api="64781f609c2b6f09796ab3f3999cdc30"
+api = os.getenv("OPENWEATHER_API_KEY")
 
 parameters = {
         "lat": MY_LAT,
